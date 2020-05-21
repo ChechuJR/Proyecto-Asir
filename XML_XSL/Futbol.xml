@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Futbol SYSTEM "../DTD/Futbol1.dtd">
+<?xml-stylesheet type="text/xsl" href="file:./Futbol.xsl"?>
+<Futbol>
+	<Partido n="1">
+		<Estadio>Santiago Bernabeu</Estadio>
+		<Jugadores>Hazard</Jugadores>
+		<Equipos>Real Madrid</Equipos>
+		<Espectadores>80.000</Espectadores>
+		<Dinero>500.000$</Dinero>
+		<Hora>15:00</Hora>
+		<Fotos>../Imagenes/Santiago.svg</Fotos>
+	</Partido>
+	<Partido n="2">
+		<Estadio>Wanda Metropolitano</Estadio>
+		<Jugadores>Koke</Jugadores>
+		<Equipos>Atletico de Madrid</Equipos>
+		<Espectadores>70.000</Espectadores>
+		<Dinero>400.000$</Dinero>
+		<Hora>16:00</Hora>
+		<Fotos>../Imagenes/wanda.svg</Fotos>
+	</Partido>
+	<Partido n="3">
+		<Estadio>Mestalla</Estadio>
+		<Jugadores>Rodrigo</Jugadores>
+		<Equipos>Valencia FC</Equipos>
+		<Espectadores>55.000</Espectadores>
+		<Dinero>220.000$</Dinero>
+		<Hora>12:00</Hora>
+		<Fotos>../Imagenes/mestalla.svg</Fotos>
+	</Partido>
+	<Partido n="4">
+		<Estadio>Camp Nou</Estadio>
+		<Jugadores>Messi</Jugadores>
+		<Equipos>FC Barcelona</Equipos>
+		<Espectadores>90.0000</Espectadores>
+		<Dinero>800.000$</Dinero>
+		<Hora>18:00</Hora>
+		<Fotos>../Imagenes/campnou.svg</Fotos>
+	</Partido>
+	<Partido n="5">
+		<Estadio>Benito Villamarin</Estadio>
+		<Jugadores>Marc Bartra</Jugadores>
+		<Equipos>Betis</Equipos>
+		<Espectadores>10.000</Espectadores>
+		<Dinero>100.000$</Dinero>
+		<Hora>11:00</Hora>
+		<Fotos>../Imagenes/benito.svg</Fotos>
+	</Partido>
+	<Partido n="6">
+		<Estadio>La Romareda</Estadio>
+		<Jugadores>Luis Javier</Jugadores>
+		<Equipos>Real Zaragoza</Equipos>
+		<Espectadores>43.000</Espectadores>
+		<Dinero>150.000$</Dinero>
+		<Hora>19:00</Hora>
+		<Fotos>../Imagenes/romareda.svg</Fotos>
+	</Partido>
+	<Partido n="7">
+		<Estadio>La Rosaleda</Estadio>
+		<Jugadores>Cifu</Jugadores>
+		<Equipos>Malaga FC</Equipos>
+		<Espectadores>57.000</Espectadores>
+		<Dinero>333.333</Dinero>
+		<Hora>22:00</Hora>
+		<Fotos>../Imagenes/larosaleda.svg</Fotos>
+	</Partido>
+	<Partido n="8">
+		<Estadio>Ramon Sanchez-Pizjuan</Estadio>
+		<Jugadores>Reguilon</Jugadores>
+		<Equipos>Sevilla FC</Equipos>
+		<Espectadores>65.000</Espectadores>
+		<Dinero>450.000$</Dinero>
+		<Hora>13:30</Hora>
+		<Fotos>../Imagenes/ramonsanchez.svg</Fotos>
+	</Partido>
+	<Partido n="9">
+		<Estadio>RCDE Stadium</Estadio>
+		<Jugadores>Facundo</Jugadores>
+		<Equipos>RCD Espanyol</Equipos>
+		<Espectadores>15.000</Espectadores>
+		<Dinero>90.000$</Dinero>
+		<Hora>11:30</Hora>
+		<Fotos>../Imagenes/RCDE.svg</Fotos>
+	</Partido>
+</Futbol>

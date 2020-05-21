@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'batmfa';
+    src: url('../Estilos/batmfa.ttf');
+}
+@font-face {
+    font-family: 'airstrike';
+    src: url('../Estilos/airstrike.ttf');
+}
+@font-face {
+    font-family: 'race';
+    src: url('../Estilos/SwipeRaceDemo.ttf');
+}
+/*index*/
+.bodypagina {
+    background-image: url(./Imagenes/logo.svg); /*Profe no ve va la ruta dejo el codigo que debira ser aqui para el logo*/
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 12em;
+    background-color: skyblue;
+}
+.a {
+    display: block;
+    margin-left: 15%;
+    margin-right: 75%;
+    margin-top: 3%;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+}
+.video {
+    margin-left: 68%;
+    margin-top: -50%;
+}
+.a:hover {
+    color: yellow;
+}
+.logo{
+    margin-right: 80%;
+}
+.mapa{
+    margin-right: 40%;
+    margin-top: -15%;
+}
+/*partidos*/
+.bodypartidos{
+    margin: 0;
+    padding: 0;
+}
+
+.fondopartido{
+    background-image: url(../Imagenes/fondohimno.svg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.titulopartidos {
+    font-family: race;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 3%;
+}
+.volverpartidos {
+    margin-right: 5%;
+    text-decoration: none;
+    color: whitesmoke;
+    border-style: solid;
+    border-color: red,
+}
+.volverpartidos:hover{
+    color: red;
+}
+.himno{
+    width: 30%;
+    margin-left: 56%;
+    padding-top: 5%;
+    font-size: 150%;
+}
+.audiohimno{
+    padding-right: 50%;
+
+}
+/*formulario*/
+.bodyformularios {
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+.fondocontacto{
+    background-image: url(../Imagenes/fondocontacto.svg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.tituloformulario {
+    font-family: batmfa;
+    padding-top: 1%;
+}
+.volverformulario {
+    margin-right: 5%;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-color: red,
+}
+.volverformulario:hover{
+    color: red;
+}
+
+.cajagrande2{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+div{
+    text-align: right;
+}
+form div {
+    text-align: left;
+}
+input{
+    width: 200px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    border-radius: 7px;
+}
+input[type="date"]{
+    width: 200px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    margin: auto auto auto 20%;
+}
+label{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+} 
+/*tienda*/
+.bodytienda{
+    margin: 0;
+    padding: 0;
+}
+
+.fondotienda{
+    background-image: url(../Imagenes/fondotienda.svg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.titulotienda {
+    font-family: airstrike;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1%;
+}
+.volvertienda {
+    margin-right: 5%;
+    margin-left: 87%;
+    text-decoration: none;
+    color: whitesmoke;
+    border-style: solid;
+    border-color: red,
+}
+.volvertienda:hover{
+    color: red;
+}
+.sectiontienda {
+    width: 3%;
+    height: 75%;
+    display: flex;
+    margin-top: 10%;
+}
+.a1 {
+    margin-right: 10%;
+    margin-left: 3%;
+}
+.a2 {
+    margin-right: 10%;
+    margin-left: 3%;
+}
+.a3 {
+    margin-right: 10%;
+    margin-left: 3%;
+}
+section, a {
+    text-decoration: none;
+    text-align: center;
+    color: blanchedalmond;
+}
+.a1:hover {
+    color: yellow;
+}
+.a2:hover {
+    color: yellow;
+}
+.a3:hover {
+    color: yellow;
+}
+/*ICONOS*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  

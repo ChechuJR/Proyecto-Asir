@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../CSS/estilopagina.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bodyformulario">
+    <main>
+        <div class="fondocontacto">
+        <header>
+            <h1 class="tituloformulario">RELLENA EL FORMULARIO Y TE CONTESTAREMOS LO ANTES POSIBLE</h1>
+            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/home?lang=es" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com/?hl=es&gl=ES" class="fa fa-youtube" target="_blank"></a>
+        </header>
+        <nav>
+            
+            <a class="volverformulario" href="../index.html">VOLVER</a>
+                
+            </nav>
+
+
+            <div class="cajagrande2">
+                <div class="labels">
+                    <label>Nombre:</label><br>
+                    <label>Apellidos:</label><br>
+                    <label>Correo Electrónico:</label><br>
+                    <label>Fecha de Nacimiento:</label><br>
+                    <label>NºSocio:</label><br>
+                    <label>DNI:</label>
+                </div>
+                <form name="f1" method="GET" action="tratar.php">
+                    <div>
+
+                        <Input type="text" name="nombre">
+                        <br>
+
+                        <Input type="text" name="apellidos">
+                        <br>
+
+                        <input type="email" name="correo" placeholder="@gmail.com">
+                        <br>
+
+                        <input type="date" name="fecha">
+                        <br>
+
+                        <Input type="text" name="NºSocio">
+                        <br>
+
+                        <Input type="text" name="DNI">
+                        <br>
+
+                        <input type="submit" name="enviar" value="Enviar solicitud">
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>

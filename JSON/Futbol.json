@@ -1,0 +1,96 @@
+{
+	"XML": {
+		"version": 1.0,
+		"encoding": "UTF-8"
+	},
+	"Futbol": {
+		"SYSTEM": "\"../DTD/Futbol1.dtd\""
+	},
+	"xml-stylesheet": "type=\"text/xsl\" href=\"file:./Futbol.xsl\"",
+	"Futbol": {
+		"Partido": [
+			{
+				"n": 1,
+				"Estadio": "Santiago Bernabeu",
+				"Jugadores": "Hazard",
+				"Equipos": "Real Madrid",
+				"Espectadores": 80.000,
+				"Dinero": "500.000$",
+				"Hora": "15:00",
+				"Fotos": "../Imagenes/Santiago.svg"
+			}, {
+				"n": 2,
+				"Estadio": "Wanda Metropolitano",
+				"Jugadores": "Koke",
+				"Equipos": "Atletico de Madrid",
+				"Espectadores": 70.000,
+				"Dinero": "400.000$",
+				"Hora": "16:00",
+				"Fotos": "../Imagenes/wanda.svg"
+			}, {
+				"n": 3,
+				"Estadio": "Mestalla",
+				"Jugadores": "Rodrigo",
+				"Equipos": "Valencia FC",
+				"Espectadores": 55.000,
+				"Dinero": "220.000$",
+				"Hora": "12:00",
+				"Fotos": "../Imagenes/mestalla.svg"
+			}, {
+				"n": 4,
+				"Estadio": "Camp Nou",
+				"Jugadores": "Messi",
+				"Equipos": "FC Barcelona",
+				"Espectadores": 90.0000,
+				"Dinero": "800.000$",
+				"Hora": "18:00",
+				"Fotos": "../Imagenes/campnou.svg"
+			}, {
+				"n": 5,
+				"Estadio": "Benito Villamarin",
+				"Jugadores": "Marc Bartra",
+				"Equipos": "Betis",
+				"Espectadores": 10.000,
+				"Dinero": "100.000$",
+				"Hora": "11:00",
+				"Fotos": "../Imagenes/benito.svg"
+			}, {
+				"n": 6,
+				"Estadio": "La Romareda",
+				"Jugadores": "Luis Javier",
+				"Equipos": "Real Zaragoza",
+				"Espectadores": 43.000,
+				"Dinero": "150.000$",
+				"Hora": "19:00",
+				"Fotos": "../Imagenes/romareda.svg"
+			}, {
+				"n": 7,
+				"Estadio": "La Rosaleda",
+				"Jugadores": "Cifu",
+				"Equipos": "Malaga FC",
+				"Espectadores": 57.000,
+				"Dinero": 333.333,
+				"Hora": "22:00",
+				"Fotos": "../Imagenes/larosaleda.svg"
+			}, {
+				"n": 8,
+				"Estadio": "Ramon Sanchez-Pizjuan",
+				"Jugadores": "Reguilon",
+				"Equipos": "Sevilla FC",
+				"Espectadores": 65.000,
+				"Dinero": "450.000$",
+				"Hora": "13:30",
+				"Fotos": "../Imagenes/ramonsanchez.svg"
+			}, {
+				"n": 9,
+				"Estadio": "RCDE Stadium",
+				"Jugadores": "Facundo",
+				"Equipos": "RCD Espanyol",
+				"Espectadores": 15.000,
+				"Dinero": "90.000$",
+				"Hora": "11:30",
+				"Fotos": "../Imagenes/RCDE.svg"
+			}
+		]
+	}
+}
