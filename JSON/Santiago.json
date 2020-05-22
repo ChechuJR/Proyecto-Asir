@@ -1,0 +1,94 @@
+{
+	"XML": {
+		"version": 1.0,
+		"encoding": "UTF-8"
+	},
+	"osm": [
+		{
+			"SYSTEM": "\"../DTD/Santiago.dtd\""
+		}, {
+			"version": 0.6,
+			"generator": "CGImap 0.8.2 (19693 thorn-03.openstreetmap.org)",
+			"copyright": "OpenStreetMap and contributors",
+			"attribution": "http://www.openstreetmap.org/copyright",
+			"license": "http://opendatacommons.org/licenses/odbl/1-0/",
+			"relation": {
+				"id": 1778978,
+				"visible": true,
+				"version": 17,
+				"changeset": 69860871,
+				"timestamp": "2019-05-03T21:05:49Z",
+				"user": "sanchi",
+				"uid": 170106,
+				"member": [
+					{
+						"type": "way",
+						"ref": 4346328,
+						"role": "outer"
+					}, {
+						"type": "way",
+						"ref": 161172500,
+						"role": "inner"
+					}
+				],
+				"tag": [
+					{
+						"k": "addr:city",
+						"v": "Madrid"
+					}, {
+						"k": "building",
+						"v": "stadium"
+					}, {
+						"k": "building:material",
+						"v": "concrete"
+					}, {
+						"k": "capacity",
+						"v": 85454
+					}, {
+						"k": "leisure",
+						"v": "stadium"
+					}, {
+						"k": "name",
+						"v": "Estadio Santiago Bernabéu"
+					}, {
+						"k": "name:ar",
+						"v": "____ _______ _______"
+					}, {
+						"k": "name:ast",
+						"v": "Estadiu Santiago Bernabeu"
+					}, {
+						"k": "name:en",
+						"v": "Santiago Bernabéu Stadium"
+					}, {
+						"k": "name:es",
+						"v": "Estadio Santiago Bernabéu"
+					}, {
+						"k": "name:he",
+						"v": "_______ _______ ______"
+					}, {
+						"k": "name:it",
+						"v": "Stadio Santiago Bernabèu"
+					}, {
+						"k": "source",
+						"v": "PNOA"
+					}, {
+						"k": "sport",
+						"v": "soccer"
+					}, {
+						"k": "start_date",
+						"v": "1947-12-14"
+					}, {
+						"k": "type",
+						"v": "multipolygon"
+					}, {
+						"k": "wikidata",
+						"v": "Q164027"
+					}, {
+						"k": "wikipedia",
+						"v": "es:Estadio Santiago Bernabéu"
+					}
+				]
+			}
+		}
+	]
+}
